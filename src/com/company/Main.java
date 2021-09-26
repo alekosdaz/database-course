@@ -25,6 +25,8 @@ public class Main {
             }
             results.close();
 
+            System.out.println("test");
+
             statement.close();
             conn.close();
         } catch (SQLException e){
